@@ -30,6 +30,10 @@ body {
   background-color: var(--color-background);
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  /* background-image:url("./assets/bg.jpg"); nahi jam ra accha bhai */
+  
+
+
 }
 
 /* removing anchor tag styles */
@@ -95,17 +99,20 @@ header > nav > ul {
   flex-direction: column;
   width: fit-content;
   text-align: left;
+  margin-top: 35px;
 }
-
+/* header{} */
 .home > .heroText > .headTitle {
   font-size: 1.6rem;
 }
 .home > .heroText > .title {
-  font-size: 2rem;
+  font-size: 1.8rem;
   font-weight: 700;
 }
 .subTitle {
   font-size: 1rem;
+  margin-top: 25px;
+  margin-bottom: 15px;
 }
 .subTitle > #textCode {
   color: var(--color-secondary);
@@ -132,8 +139,8 @@ header > nav > ul {
   flex-direction: column;
 }
 /* myaddition */
-#skills{
-  margin-top: 75px;
+#skills {
+  margin-top: 45px;
 }
 /* closes */
 
@@ -150,7 +157,12 @@ header > nav > ul {
   color: var(--color-background);
   border-radius: 0.4rem;
 }
-
+#projects{
+  margin-top: 75px;
+}
+#grpprojects{
+  margin-top: 20px;
+}
 .projectCard {
   display: flex;
   flex-direction: column;
@@ -163,8 +175,12 @@ header > nav > ul {
   padding-bottom: 1rem;
 }
 .projectCard > img {
-  width: 16rem;
+  width: 15rem;
   border-radius: 0.8rem;
+}
+.projectCard > img:hover {
+  width: 16rem;
+  border-radius: 0.9rem;
 }
 .projectCard > .title {
   margin-top: 0.4rem;
@@ -194,7 +210,14 @@ footer {
   margin: 0 auto;
   padding: 3rem 0 1rem 0;
 }
-
+.mobileMenuList {
+  font-size: 20px;
+  font-weight: bolder;
+}
+.catch{
+  font-size: 1rem;
+  font-weight: bolder;
+}
 /* media queries for larger screens */
 @media screen and (min-width: 768px) {
   html {
@@ -217,7 +240,7 @@ footer {
     font-size: 2rem;
   }
   .home > .heroText > .title {
-    font-size: 2.4rem;
+    font-size: 2rem;
     font-weight: 700;
   }
 }

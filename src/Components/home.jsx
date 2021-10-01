@@ -1,19 +1,21 @@
 import React from "react";
-import heroImg from "../assets/unboxing.svg";
+import heroImg from "../assets/minepic.png";
 
 const Home = () => {
   return (
     <section className="home">
-      <img src={heroImg} width={350} alt="display picture" />
+      <img src={heroImg} width={320} alt="display picture" />
       <div className="heroText">
         <div className="headTitle">Pranam 🙏</div>
         <div className="title">I'm Prasanna Anjankar</div>
         <div className="subTitle">
-          I write <span id="textCode">code {"</>"}</span> and{" "}
-          <span id="textMelody">melodies!</span>
+          I am a <span id="textCode">Creator {"</>"}</span> and a Beginner in  {" "}
+          <span id="textMelody">Graphic desiging!</span>
         </div>
+        
         <div className="socialHandles">
-          <a href="http://github.com/destro1108" target="_blank">
+        <div className="catch">Catch Me up : </div> <br/>
+          <a href="https://github.com/prasanna-2001" target="_blank">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               width="24"
@@ -47,7 +49,7 @@ const Home = () => {
               <circle cx="4" cy="4" r="2"></circle>
             </svg>
           </a>
-          <a href="http://twitter.com/swnnd" target="_blank">
+          <a href="https://twitter.com/Prasanna_A_2001" target="_blank">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               width="24"

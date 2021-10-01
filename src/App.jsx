@@ -6,6 +6,7 @@ import About from './Components/about'
 import Skills from './Components/skills'
 import Footer from "./Components/footer"
 import Projects from './Components/project'
+import GroupProjects from './Components/grpprojects'
 
 function App() {
 
@@ -16,6 +17,7 @@ function App() {
        <About/>
        <Skills/>
        <Projects/>
+       <GroupProjects/>
        <Footer/>
     </div>
   )

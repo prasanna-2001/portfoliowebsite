@@ -11,7 +11,7 @@ const Navbar = () => {
   return (
     <header style={{ position: "sticky", top: 0 }}>
       <div className="brandName" onClick={handleScrollToTop}>
-        swnnd.
+        Prasanna.
       </div>
       <nav className="mobileMenuList">
         <ul>
@@ -34,7 +34,7 @@ const Navbar = () => {
           <a href="#projects">
             <li
               className={activeSection === "#projects" ? "activeSection" : null}
-              onClick={() => setActiveSection("#projects")}
+              onClick={() => setActiveSection("#tp")}
             >
               Projects
             </li>

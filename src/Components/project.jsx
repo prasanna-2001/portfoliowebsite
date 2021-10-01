@@ -1,6 +1,8 @@
 import React from "react";
 import { Skill } from "./skills";
-import CodeImg from "../assets/pankajUnsplash.jpg";
+import MarioMac from "../assets/mariomac.png";
+import BricBreaker from "../assets/Brickbreaker.png";
+import MemoryGame from "../assets/memmap.png"
 
 const ProjectCard = ({ img, title, subtitle, desc, stack, live, code }) => {
   return (
@@ -29,36 +31,36 @@ const ProjectCard = ({ img, title, subtitle, desc, stack, live, code }) => {
 const Projects = () => {
   const projectsData = [
     {
-      img: CodeImg,
-      title: "playnloot",
+      img: MarioMac,
+      title: "MarioMac",
       subtitle: "WebApp",
-      desc: "A platform for PUBG players to host or participate in various tournaments with cash prizes.",
-      stack: ["reactJS", "Firebase"],
-      live: "https://playandloot.web.app/",
-      code: "https://github.com/tooGeeks/playnloot",
+      desc: "A web game for kids . Our childhood hero  Mr. Super Mario is featuring the game with Mr. Dragon as a villian. The hero has to dodge the villian and th speed",
+      stack: ["HTML", "CSS", "JavaScript"],
+      live: "https://prasanna-2001.github.io/Mario-mac/",
+      code: "https://github.com/prasanna-2001/Mario-mac",
     },
     {
-      img: CodeImg,
-      title: "onlyStore",
+      img: BricBreaker,
+      title: "Brick-Breaker",
       subtitle: "WebApp",
-      desc: "A modern eCommerce Web App developed using only frontend technologies, and featuring fully functional localStorage based login, cart, wishlist and order system.",
-      stack: ["reactJS", "redux toolkit", "material-ui", "localStorage"],
-      live: "https://knd-devsnest.github.io/onlystore/#/",
-      code: "https://github.com/KND-Devsnest/onlystore",
+      desc: "Just like the traditional brickbreaker game . With 3 amazing levels. So, grab on the console and get set play ",
+      stack: ["HTML Canvas", "HTML", "CSS", "Javascript"],
+      live: "https://happy-shannon-e022e0.netlify.app/",
+      code: "https://github.com/prasanna-2001/BRICK_BREAKER",
     },
     {
-      img: CodeImg,
-      title: "slateboard",
+      img: MemoryGame,
+      title: "MemoryCards",
       subtitle: "WebApp",
-      desc: "SlateBoard is an easy-to-use whiteboard made in vanilla JavaScript using HTML5 Canvas.",
-      stack: ["HTML5 Canvas", "HTML5", "CSS3"],
-      live: "https://knd-devsnest.github.io/slateboard/",
-      code: "https://github.com/KND-Devsnest/slateboard",
+      desc: "Sharpen your remembering skills.  ",
+      stack: ["HTML","CSS", "jaVASCRIPT"],
+      live: "https://prasanna-2001.github.io/Memory-Game-Cards-/",
+      code: "https://github.com/prasanna-2001/Memory-Game-Cards-",
     },
   ];
   return (
     <section id="projects">
-      <h2>Projects</h2>
+      <h2>My Projects</h2>
       <div className="projectCardsContainer">
         {projectsData.map((project) => (
           <ProjectCard key={project.title} {...project} />
