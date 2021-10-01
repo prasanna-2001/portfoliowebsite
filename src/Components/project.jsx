@@ -1,8 +1,8 @@
 import React from "react";
 import { Skill } from "./skills";
-import MarioMac from "../assets/mariomac.png";
-import BricBreaker from "../assets/Brickbreaker.png";
-import MemoryGame from "../assets/memmap.png"
+import MarioMac from "../assets/mariomac.PNG";
+import BricBreaker from "../assets/Brickbreaker.PNG";
+import MemoryGame from "../assets/memmap.PNG"
 
 const ProjectCard = ({ img, title, subtitle, desc, stack, live, code }) => {
   return (

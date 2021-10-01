@@ -1,7 +1,7 @@
 import React from "react";
 import { Skill } from "./skills";
-import WhiteBoard from "../assets/WhiteBoard.png";
-import BrickBreaker from "../assets/brickbreakergrp.png";
+import WhiteBoard from "../assets/WhiteBoard.PNG";
+import BrickBreaker from "../assets/brickbreakergrp.PNG";
 
 
 const ProjectCard = ({ img, title, subtitle, desc, stack, live, code }) => {
