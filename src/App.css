@@ -219,7 +219,7 @@ footer {
   font-weight: bolder;
 }
 /* media queries for larger screens */
-@media screen and (min-width: 768px) {
+/* @media screen and (min-width: 768px) {
   html {
     font-size: 20px;
   }
@@ -228,8 +228,8 @@ footer {
   }
   header > nav > ul {
     gap: 2rem;
-  }
-  .home {
+  } */
+  /* .home {
     flex-direction: row-reverse;
     justify-content: space-between;
   }
@@ -243,4 +243,4 @@ footer {
     font-size: 2rem;
     font-weight: 700;
   }
-}
+} */
