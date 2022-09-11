@@ -30,15 +30,15 @@ const ProjectCard = ({ img, title, subtitle, desc, stack, live, code }) => {
 
 const GroupProjects = () => {
   const projectsData = [
-    {
-      img: BrickBreaker,
-      title: "Brick-breaker",
-      subtitle: "WebApp",
-      desc: " Made with team .Just like the traditional brickbreaker game . With 3 amazing levels. So, grab on the console and get set play.",
-      stack: ["HTML5 Canvas", "HTML", "CSS"],
-      live: "https://dheet-developer-team.github.io/breakout-brick-game/",
-      code: "https://github.com/Dheet-Developer-Team/breakout-brick-game",
-    },
+    // {
+    //   img: BrickBreaker,
+    //   title: "Brick-breaker",
+    //   subtitle: "WebApp",
+    //   desc: " Made with team .Just like the traditional brickbreaker game . With 3 amazing levels. So, grab on the console and get set play.",
+    //   stack: ["HTML5 Canvas", "HTML", "CSS"],
+    //   live: "https://dheet-developer-team.github.io/breakout-brick-game/",
+    //   code: "https://github.com/Dheet-Developer-Team/breakout-brick-game",
+    // },
     {
       img: WhiteBoard,
       title: "White-Booard",

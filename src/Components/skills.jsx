@@ -5,7 +5,7 @@ export const Skill = (props) => {
 };
 
 const Skills = () => {
-  let mySkills = ["HTML", "CSS", "JavaScript", "reactJS", "Bootstrap", "redux", "SQL", "git and Github "];
+  let mySkills = ["HTML", "CSS", "JavaScript", "reactJS", "C/C++", "SQL", "git and Github "];
   return (
     <section id="skills">
       <h2>Skills</h2>

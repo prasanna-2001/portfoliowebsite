@@ -3,7 +3,7 @@ import { Skill } from "./skills";
 import MarioMac from "../assets/mariomac.jpg";
 import BricBreaker from "../assets/Brickbreaker.jpg";
 import MemoryGame from "../assets/memmap.jpg"
-
+import TextAnalyser from "../assets/textanalyser.png"
 const ProjectCard = ({ img, title, subtitle, desc, stack, live, code }) => {
   return (
     <div className="projectCard">
@@ -30,6 +30,15 @@ const ProjectCard = ({ img, title, subtitle, desc, stack, live, code }) => {
 
 const Projects = () => {
   const projectsData = [
+    {
+      img: TextAnalyser,
+      title: "Text Analyser",
+      subtitle: "WebApp",
+      desc: "A text analyser with the feature to count words, charachers, capitalise each word",
+      stack: ["HTML", "CSS", "JavaScript"],
+      live: "https://text-analyser-orcin.vercel.app/",
+      code: "https://github.com/prasanna-2001/React-Revisit-1",
+    },
     {
       img: MarioMac,
       title: "MarioMac",
