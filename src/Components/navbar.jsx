@@ -34,9 +34,17 @@ const Navbar = () => {
           <a href="#projects">
             <li
               className={activeSection === "#projects" ? "activeSection" : null}
-              onClick={() => setActiveSection("#tp")}
+              onClick={() => setActiveSection("#projects")}
             >
               Projects
+            </li>
+          </a>
+          <a href="#Challenges">
+            <li
+              className={activeSection === "#Challenges" ? "activeSection" : null}
+              onClick={() => setActiveSection("#Challenges")}
+            >
+              Challenges
             </li>
           </a>
         </ul>

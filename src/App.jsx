@@ -7,6 +7,7 @@ import Skills from './Components/skills'
 import Footer from "./Components/footer"
 import Projects from './Components/project'
 import GroupProjects from './Components/grpprojects'
+import Challenges from './Components/challenges'
 
 function App() {
 
@@ -18,6 +19,7 @@ function App() {
        <Skills/>
        <Projects/>
        <GroupProjects/>
+       <Challenges/>
        <Footer/>
     </div>
   )
