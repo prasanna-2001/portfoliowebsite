@@ -1,6 +1,7 @@
 import React from "react";
 import { Skill } from "./skills";
 import DrumSet from "../assets/drumset.jpg";
+import Clock from "../assets/clock.jpg";
 
 const ProjectCard = ({ img, title, subtitle, desc, stack, live, code }) => {
   return (
@@ -29,13 +30,22 @@ const ProjectCard = ({ img, title, subtitle, desc, stack, live, code }) => {
 const Challenges = () => {
   const projectsData = [
     {
+      img: Clock,
+      title: "JsClock",
+      subtitle: "WebApp",
+      desc: "A javascript based DRUMSET like webapp",
+      stack: ["HTML", "CSS", "JavaScript"],
+      live: "https://tiny-seahorse-57d136.netlify.app/",
+      code: "https://github.com/prasanna-2001/JavaScript30Challenge/tree/main/DAY-2%20JS%2BCSS%20CLOCK",
+    },
+    {
       img: DrumSet,
       title: "DrumSey",
       subtitle: "WebApp",
       desc: "A javascript based DRUMSET like webapp",
       stack: ["HTML", "CSS", "JavaScript"],
       live: "https://main--gregarious-pixie-741845.netlify.app/",
-      code: "https://github.com/prasanna-2001/JavaScript30Challenge/tree/main/DAY-1",
+      code: "https://github.com/prasanna-2001/JavaScript30Challenge/tree/main/DAY-1%20DRUMSET",
     },
     
   ];
